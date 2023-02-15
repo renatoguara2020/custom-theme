@@ -1,0 +1,92 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\renat\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Program Files\WindowsApps\Microsoft.PowerShellPreview_7.4.1.0_x64__8wekyb3d8bbwe;C:\Program Files\Eclipse Adoptium\jdk-17.0.5.8-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\wamp\bin\php\php7.4.33;C:\xampp\php;C:\composer1;C:\Users\renat\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\renat\AppData\Local\Programs\Python\Python310\;C:\Users\renat\anaconda3;C:\Users\renat\anaconda3\Library\mingw-w64\bin;C:\Users\renat\anaconda3\Library\usr\bin;C:\Users\renat\anaconda3\Library\bin;C:\Users\renat\anaconda3\Scripts;C:\Ruby31-x64\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\renat\AppData\Local\Microsoft\WindowsApps;C:\tools\dart-sdk\bin;C:\Users\renat\AppData\Roaming\Pub\Cache\bin;C:\Program Files\MongoDB\Server\5.0\bin;C:\Program Files\MongoDB\Tools\100\bin;C:\Program Files\JetBrains\PyCharm 2021.3.3\bin;C:\Users\renat\AppData\Local\GitHubDesktop\bin;C:\xampp\mysql\bin;C:\Users\renat\AppData\Local\atom\bin;C:\Users\renat\AppData\Roaming\npm;C:\Users\renat\AppData\Local\Programs\mongosh\;C:\Python310;C:\Program Files (x86)\Brackets\;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.4\bin;;C:\Users\renat\AppData\Roaming\Composer\vendor\bin
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.15.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@angular/common/-/common-8.2.14.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\renat\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141510:19)
+      at Object.onceWrapper (node:events:641:28)
+      at ClientRequest.emit (node:events:527:28)
+      at TLSSocket.emitRequestTimeout (node:_http_client:771:9)
+      at Object.onceWrapper (node:events:641:28)
+      at TLSSocket.emit (node:events:539:35)
+      at TLSSocket.Socket._onTimeout (node:net:516:8)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7)
+
+npm manifest: 
+  {
+    "name": "fitness-tracker",
+    "version": "0.0.0",
+    "license": "MIT",
+    "scripts": {
+      "ng": "ng",
+      "start": "ng serve",
+      "build": "ng build --prod",
+      "test": "ng test",
+      "lint": "ng lint",
+      "e2e": "ng e2e"
+    },
+    "private": true,
+    "dependencies": {
+      "@angular/animations": "^8.0.0",
+      "@angular/cdk": "^8.0.0",
+      "@angular/common": "^8.0.0",
+      "@angular/compiler": "^8.0.0",
+      "@angular/core": "^8.0.0",
+      "@angular/flex-layout": "^8.0.0-beta.26",
+      "@angular/forms": "^8.0.0",
+      "@angular/material": "^8.0.0",
+      "@angular/platform-browser": "^8.0.0",
+      "@angular/platform-browser-dynamic": "^8.0.0",
+      "@angular/router": "^8.0.0",
+      "@ngrx/effects": "^8.0.0-beta.2",
+      "@ngrx/store": "^8.0.0-beta.2",
+      "angularfire2": "^5.1.3",
+      "core-js": "^3.1.2",
+      "firebase": "^6.0.2",
+      "hammerjs": "^2.0.8",
+      "rxjs": "^6.0.0",
+      "rxjs-compat": "^6.0.0",
+      "zone.js": "^0.9.1"
+    },
+    "devDependencies": {
+      "@angular/cli": "^8.0.0",
+      "@angular-devkit/build-angular": "~0.800.0",
+      "@angular/compiler-cli": "^8.0.0",
+      "@angular/language-service": "^8.0.0",
+      "@types/jasmine": "~2.8.3",
+      "@types/jasminewd2": "~2.0.2",
+      "@types/node": "~6.0.60",
+      "codelyzer": "^4.0.1",
+      "jasmine-core": "~2.8.0",
+      "jasmine-spec-reporter": "~4.2.1",
+      "karma": "~2.0.0",
+      "karma-chrome-launcher": "~2.2.0",
+      "karma-cli": "~1.0.1",
+      "karma-coverage-istanbul-reporter": "^1.2.1",
+      "karma-jasmine": "~1.1.0",
+      "karma-jasmine-html-reporter": "^0.2.2",
+      "protractor": "~5.1.2",
+      "ts-node": "~3.2.0",
+      "tslint": "~5.9.1",
+      "typescript": "~3.4.5"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
